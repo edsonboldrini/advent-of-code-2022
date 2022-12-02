@@ -13,7 +13,6 @@ const events = require('events');
   let maxCalories2 = 0
   let maxCalories3 = 0
   let currentCalories = 0
-  let aux = 0
 
   rl.on('line', async (line) => {
     if (line) {
