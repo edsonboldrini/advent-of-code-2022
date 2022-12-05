@@ -19,7 +19,7 @@ const priorities = [
   let currentScore = 0
   let lines3 = []
 
-  rl.on('line', async (line) => {
+  rl.on('line', (line) => {
     if (line) {
       if (lines3.length < 2) {
         lines3.push(line)

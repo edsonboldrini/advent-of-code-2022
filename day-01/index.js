@@ -14,7 +14,7 @@ const events = require('events');
   let maxCalories3 = 0
   let currentCalories = 0
 
-  rl.on('line', async (line) => {
+  rl.on('line', (line) => {
     if (line) {
       currentCalories += parseInt(line)
     } else {

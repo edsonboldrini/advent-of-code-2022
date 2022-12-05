@@ -75,7 +75,7 @@ const matches = {
   let totalScore = 0
   let currentScore = 0
 
-  rl.on('line', async (line) => {
+  rl.on('line', (line) => {
     if (line) {
       const [opponent, prediction] = line.split(' ')
       let myResult = ''
