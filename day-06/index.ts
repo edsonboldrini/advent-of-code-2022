@@ -20,15 +20,15 @@ function hasDuplicatedLetter(str: string) {
 }
 
 const lengthPacket = 14
-let index = 14
+let index = lengthPacket - 1
 let duplicatedLetter = false
 
 do {
+  index += 1
   const str = input.slice(index - lengthPacket, index)
   duplicatedLetter = hasDuplicatedLetter(str);
   // console.log(str)
   // console.log(index)
-  index += 1
 } while (duplicatedLetter)
 
-console.log(index - 1)
+console.log(index)
