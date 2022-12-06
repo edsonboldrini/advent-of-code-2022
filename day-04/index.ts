@@ -4,7 +4,7 @@ const lines = input.split('\n');
 
 let totalScore = 0
 
-lines.map((l) => {
+lines.forEach((l) => {
   const sanitized = l.replaceAll('\n', '')
   const sections = sanitized.split(',')
   const sectionsRange1 = sections[0].split('-')
