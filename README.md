@@ -1,4 +1,4 @@
-## aoc-2022
+## advent-of-code-2022
 
 Repository to solve all of Advent of Code puzzles from day 1 to 25.
 
